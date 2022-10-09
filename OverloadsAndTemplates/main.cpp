@@ -1,4 +1,4 @@
-#pragma warning(disable:4326)
+Ôªø#pragma warning(disable:4326)
 #include<iostream>
 using namespace std;
 
@@ -38,19 +38,19 @@ void main()
 	int arr[n];
 	FillRand(arr, n);
 	Print(arr, n);
-	cout << "—ÛÏÏ‡ ˝ÎÂÏÂÌÚÓ‚ Ï‡ÒÒË‚‡: " << Sum(arr, n) << endl;
-	cout << "—Â‰ÌÂÂ-‡ËÙÏÂÚË˜ÂÒÍÓÂ Ï‡ÒÒË‚‡: " << Avg(arr, n) << endl;
-	cout << "ÃËÌËÏ‡Î¸ÌÓÂ ÁÌ‡˜ÂÌËÂ ‚ Ï‡ÒÒË‚Â: " << minValueIn(arr, n) << endl;
-	cout << "Ã‡ÍÒËÏ‡Î¸ÌÓÂ ÁÌ‡˜ÂÌËÂ ‚ Ï‡ÒÒË‚Â: " << maxValueIn(arr, n) << endl;
+	cout << "–°—É–º–º–∞ —ç–ª–µ–º–µ–Ω—Ç–æ–≤ –º–∞—Å—Å–∏–≤–∞: " << Sum(arr, n) << endl;
+	cout << "–°—Ä–µ–¥–Ω–µ–µ-–∞—Ä–∏—Ñ–º–µ—Ç–∏—á–µ—Å–∫–æ–µ –º–∞—Å—Å–∏–≤–∞: " << Avg(arr, n) << endl;
+	cout << "–ú–∏–Ω–∏–º–∞–ª—å–Ω–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –≤ –º–∞—Å—Å–∏–≤–µ: " << minValueIn(arr, n) << endl;
+	cout << "–ú–∞–∫—Å–∏–º–∞–ª—å–Ω–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –≤ –º–∞—Å—Å–∏–≤–µ: " << maxValueIn(arr, n) << endl;
 	Sort(arr, n);
 	Print(arr, n);
 
 	/*
-	int number_of_shifts; // ÓÎË˜ÂÒÚ‚Ó Ò‰‚Ë„Ó‚
-	cout << "¬‚Â‰ËÚÂ ÍÓÎË˜ÂÒÚ‚Ó Ò‰‚Ë„Ó‚: "; cin >> number_of_shifts;
+	int number_of_shifts; //–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ —Å–¥–≤–∏–≥–æ–≤
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ —Å–¥–≤–∏–≥–æ–≤: "; cin >> number_of_shifts;
 	shiftLeft(arr, n, number_of_shifts);
 	Print(arr, n);
-	cout << "¬‚Â‰ËÚÂ ÍÓÎË˜ÂÒÚ‚Ó Ò‰‚Ë„Ó‚: "; cin >> number_of_shifts;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ —Å–¥–≤–∏–≥–æ–≤: "; cin >> number_of_shifts;
 	shiftRight(arr, n, number_of_shifts);
 	Print(arr, n);
 	*/
@@ -68,14 +68,14 @@ void main()
 	int i_arr_2[ROWS][COLS];
 	FillRand(i_arr_2, ROWS, COLS);
 	Print(i_arr_2, ROWS, COLS);
-	cout << "—ÛÏÏ‡ ˝ÎÂÏÂÌÚÓ‚ Ï‡ÒÒË‚‡: " << Sum(i_arr_2, ROWS, COLS) << endl;
-	cout << "—Â‰ÌÂÂ ‡ËÙÏÂÚË˜ÂÒÍÓÂ Ï‡ÒÒË‚‡: " << Avg(i_arr_2, ROWS, COLS) << endl;
+	cout << "–°—É–º–º–∞ —ç–ª–µ–º–µ–Ω—Ç–æ–≤ –º–∞—Å—Å–∏–≤–∞: " << Sum(i_arr_2, ROWS, COLS) << endl;
+	cout << "–°—Ä–µ–¥–Ω–µ–µ –∞—Ä–∏—Ñ–º–µ—Ç–∏—á–µ—Å–∫–æ–µ –º–∞—Å—Å–∏–≤–∞: " << Avg(i_arr_2, ROWS, COLS) << endl;
 
 	double d_arr_2[ROWS][COLS];
 	FillRand(d_arr_2, ROWS, COLS);
 	Print(d_arr_2, ROWS, COLS);
-	cout << "—ÛÏÏ‡ ˝ÎÂÏÂÌÚÓ‚ Ï‡ÒÒË‚‡: " << Sum(d_arr_2, ROWS, COLS) << endl;
-	cout << "—Â‰ÌÂÂ ‡ËÙÏÂÚË˜ÂÒÍÓÂ Ï‡ÒÒË‚‡: " << Avg(d_arr_2, ROWS, COLS) << endl;
+	cout << "–°—É–º–º–∞ —ç–ª–µ–º–µ–Ω—Ç–æ–≤ –º–∞—Å—Å–∏–≤–∞: " << Sum(d_arr_2, ROWS, COLS) << endl;
+	cout << "–°—Ä–µ–¥–Ω–µ–µ –∞—Ä–∏—Ñ–º–µ—Ç–∏—á–µ—Å–∫–æ–µ –º–∞—Å—Å–∏–≤–∞: " << Avg(d_arr_2, ROWS, COLS) << endl;
 }
 
 void FillRand(int arr[], const int n)
@@ -260,8 +260,8 @@ void Sort(int arr[], const int n)
 	{
 		for (int j = i + 1; j < i; j++)
 		{
-			//arr[i] - ‚˚·‡ÌÌ˚È ˝ÎÂÏÂÌÚ, ‚ ÍÓÚÓ˚È Ï˚ ıÓÚËÏ ÔÓÏÂÒÚËÚ¸ ÏËÌËÏ‡Î¸ÌÓÂ ÁÌ‡˜ÂÌËÂ
-			//arr[j] - ÔÂÂ·Ë‡ÂÏ˚È ˝ÎÂÏÂÌÚ
+			//arr[i] - –≤—ã–±—Ä–∞–Ω–Ω—ã–π —ç–ª–µ–º–µ–Ω—Ç, –≤ –∫–æ—Ç–æ—Ä—ã–π –º—ã —Ö–æ—Ç–∏–º –ø–æ–º–µ—Å—Ç–∏—Ç—å –º–∏–Ω–∏–º–∞–ª—å–Ω–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ
+			//arr[j] - –ø–µ—Ä–µ–±–∏—Ä–∞–µ–º—ã–π —ç–ª–µ–º–µ–Ω—Ç
 			if (arr[j] < arr[i])
 			{
 				int buffer = arr[i];
